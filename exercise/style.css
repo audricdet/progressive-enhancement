@@ -1,3 +1,8 @@
+* {
+    font-family: 'Roboto Serif', serif;
+    ;
+}
+
 /* Header*/
 blockquote {
     font-size: 32px;
@@ -93,3 +98,10 @@ tr:nth-child(odd) {
 
 /* sections */
 
+section {
+    display: flex;
+}
+
+.texte {
+    padding-left: 20px;
+}
