@@ -1,0 +1,95 @@
+/* Header*/
+blockquote {
+    font-size: 32px;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    background-color: #c3bebe;
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+header {
+    background-color: rgb(225, 225, 1);
+}
+
+/* Body */
+body {
+    width: 90%;
+    margin :0 auto;
+    background: -webkit-radial-gradient(rgb(183, 214, 241), rgb(119, 171, 222));
+    background: radial-gradient(rgb(183, 214, 241), rgb(119, 171, 222));
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-background-design-of-the-china-wind-enterprise-annual-meeting-branchlanternchinese-style-image_73848.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #545353;
+}
+
+#p1 {
+    font-weight: bold;
+}
+
+.good {
+    text-transform: capitalize;
+    color: green;
+}
+
+.bad {
+    text-transform: capitalize;
+    color: red;
+}
+
+/* quotes*/
+q {
+    font-style: italic;
+}
+
+.villagers {
+    border-left: 1px solid rgb(9, 200, 9);
+}
+
+.farmer {
+    border-left: 1px solid rgb(250, 54, 10);
+}
+
+/* stylisé les liens*/
+a :link {
+    color :#073a9a;
+}
+
+a :visited {
+    color: #650b3a;
+}
+
+a :hover {
+    color: #a62b6b;
+}
+
+/* Table */
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background: #CCC
+}
+
+tr:nth-child(odd) {
+    background-color: #FFF;
+}
+
+/* sections */
+
